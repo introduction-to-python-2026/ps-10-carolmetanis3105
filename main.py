@@ -8,7 +8,7 @@ from image_utils import load_image, edge_detection
 
 def main():
     # Load image
-    image = load_image("original_image.jpg")
+    image = load_image("pythonHate.jpg")
 
     # Noise suppression
     clean = median(image, ball(3))
